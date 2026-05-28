@@ -1,0 +1,13 @@
+version: '3.8'
+services:
+  ecommerce-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: react-node-ecommerce
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - JWT_SECRET=super_secret_jwt_key_for_production
+    restart: always
