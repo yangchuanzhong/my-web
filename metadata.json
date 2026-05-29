@@ -1,8 +1,6 @@
 {
-  "name": "Full-Stack E-Commerce",
-  "description": "A complete e-commerce platform with a React frontend and Node.js REST API backend. Includes JWT authentication, shopping cart logic, simulated payment gateway, and containerized deployment support.",
+  "name": "E-Commerce Shopping Platform",
+  "description": "A full-stack e-commerce platform featuring JWT authentication, shopping cart, Taiwanese payment gateway simulation, an AI shopping assistant, and an admin dashboard.",
   "requestFramePermissions": [],
-  "majorCapabilities": [
-    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
-  ]
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }
